@@ -8,5 +8,3 @@ ext {
     gitUrl = 'https://github.com/YvesCheung/RollingText.git'
     libraryVersion = version
 }
-
-apply from: '../gradle/publish.gradle'

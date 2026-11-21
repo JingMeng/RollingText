@@ -132,7 +132,7 @@ open class RollingTextView @JvmOverloads constructor(
             invalidate()
         }
         animator.addListener(object : AnimatorListenerAdapter() {
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationEnd(animation: Animator) {
                 textManager.onAnimationEnd()
             }
         })
